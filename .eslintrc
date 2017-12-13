@@ -1,0 +1,13 @@
+parser: babel-eslint
+extends:
+  - eslint:recommended
+plugins:
+  - flowtype
+env:
+  node: true
+  es6: true
+rules:
+  semi: 2
+  sort-vars: 2
+  no-process-exit: 0
+  flowtype/sort-keys: 2
